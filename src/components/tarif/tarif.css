@@ -1,0 +1,144 @@
+.site-tarif {
+    background: #3C3C3C;
+    padding: 80px;
+    overflow: hidden;
+}
+
+.site-tarif h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #F8F8F8;
+    margin-bottom: 80px;
+}
+
+.last-one__btn{
+    max-width: 350px;
+    width: 100%;
+    height: 80px;
+    background: #D85003;
+    border: none;
+    color: #F8F8F8;
+    font-size: 28px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.last-one {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.last-one p {
+    color: #F8F8F8;
+    font-size: 18px;
+}
+
+
+.tarif {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.tarif-first {
+    border: 2px solid #F8F8F8;
+    color: #F8F8F8;
+    padding: 20px;
+    max-width: 370px;
+    width: 100%;
+}
+
+.line {
+    height: 60px;
+    width: 21px;
+    color: #F8F8F8;
+}
+
+.model-start {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.model-start h2 {
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+
+
+
+.model-texts p {
+    color: #F8F8F8;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.model-texts_h3 {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.model-h3 {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.model-texts h4 {
+    text-align: center;
+}
+
+.cd {
+    font-weight: 200;
+    opacity: 0.6;
+}
+
+h5 {
+    margin-bottom: 50px;
+    border: 1px solid #F8F8F8;
+}
+
+
+.tarif-second {
+    border: 2px solid #F8F8F8;
+    color: #F8F8F8;
+    padding: 20px;
+    max-width: 370px;
+    width: 100%;
+}
+
+
+.tarif-third {
+    border: 2px solid #F8F8F8;
+    color: #F8F8F8;
+    padding: 20px;
+    max-width: 370px;
+    width: 100%;
+}
+
+@media screen and (max-width:1000px)  {
+    .tarif {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .site-tarif {
+        padding: 40px 0;
+    }
+
+    .last-one p {
+        text-align: center;
+    }
+}
+
+.kerede {
+    font-size: 25px;
+    opacity: 1;
+}
