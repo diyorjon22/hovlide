@@ -36,7 +36,7 @@ const Tarif = () => {
                                 <p>Deraza eshiklar bilan ishlash</p>
                                 <p>3d Modellar bilan ishlash</p>
                                 <h3 className='model-texts_h3'>950.000 UZS</h3>
-                                
+                                <h4 className='kerede'>salom</h4>
                             </div>
                         </div>
                         <h5></h5>
